@@ -1,5 +1,6 @@
 # Dog Tunnel
 
+# fork from vzex
 ## Introduction
 
 Dog tunnel provide a P2P tunnel between your any two network, via UDP protocol on top of KCP.
@@ -21,6 +22,10 @@ see [scripts/install_linux.sh](scripts/install_linux.sh)
 ### Install dtunnel on Ubuntu/Kubuntu 14.04 and 14.10
 
 See [scripts/install_ubuntu.sh](scripts/install_ubuntu.sh)
+
+### Build dtunnel with gccgo
+
+    make gccgo CCGO=mipsel-openwrt-linux-gccgo
 
 ## Specification
 
