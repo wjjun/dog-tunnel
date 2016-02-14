@@ -9,7 +9,7 @@ It's written with pure golang by vzex.
 ## Installation
 
 ### Build dtunnel with gccgo
-    ake gccgo CCGO=mipsel-openwrt-linux-gccgo
+    make gccgo CCGO=mipsel-openwrt-linux-gccgo
 
 ### [Run dog tunnel with docker container](doc/docker.md)
 
