@@ -1,4 +1,4 @@
-CCGO = gccgo
+CCGO = gccgo -g
 
 all:
 	@make release
